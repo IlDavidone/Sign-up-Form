@@ -16,6 +16,10 @@ h1 {
     text-align: center;
 }
 
+a {
+    text-decoration: none;
+}
+
 form {
     display: flex;
     flex-direction: row;
@@ -23,8 +27,7 @@ form {
     flex-wrap: wrap;
     max-height: 100vh;
     gap: 20px;
-    margin: 10vh 100px 0 50px;
-    padding: 0 4vw 0 4vw;
+    margin: 5vh 70px 0 70px;
 }
 
 button {
@@ -32,6 +35,8 @@ button {
     font-size: 1.3rem;
     padding: 10px;
     margin: 15px 20px 0 20px;
+    background: linear-gradient(180deg, #3ff281, #369e5b);
+    border-radius: 12px;
 }
 
 label {
@@ -40,6 +45,10 @@ label {
 }
 
 .form-wrapping {
+    width: 40vw;
+    height: fit-content;
+    margin-bottom: 10vh;
+    padding-bottom: 5vh;
     margin-top: 20px;
     border-radius: 20px;
     border: 7px solid #191c24;
@@ -61,15 +70,9 @@ label {
     margin-bottom: -4px;
 }
 
-.filler {
-    z-index: -2;
-    flex: 1 0 auto;
-    width: 55vw;
-    height: 100vh;
-    margin-bottom: -4px;
-}
-
 .content {
+    justify-content: center;
+    align-items: center;
     display: flex;
     height: 95%;
 }
