@@ -98,8 +98,23 @@ label {
     justify-content: center;
     height: 5%;
     width: 100%;
+    background: white;
+    border-top: 4px solid #151F20;
 }
 
 .footer-text {
-    color: white;
+    text-align: center;
+    color: #24292F;
+    margin: 8px 0 8px 0;
+}
+
+.github-svg {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.github-svg:hover {
+    transform: rotate(360deg) scale(1.15);
 }
